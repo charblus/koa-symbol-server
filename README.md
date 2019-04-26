@@ -3,7 +3,12 @@
 * sequelize
 > Sequelize是一个基于promise的nodejs ORM，目前支持Postgres、mysql、SQLite和Microsoft SQL Server。它具有强大的事务支持，关联关系，读取和复制等功能。
 
-
+选用mysql数据库;
+``` 
+show databases;
+create database db_libray;
+use db_libray;
+```
 ### project
 schema:数据表模型实例 
 modules：实体模型
